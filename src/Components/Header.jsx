@@ -113,7 +113,7 @@ const Header = () => {
               </p>
             </div>
            
-              <img className="h-full w-full  absolute left-[13%] bottom-[-25%] md:bottom-[-40%] max-w-[635px] lg:w-full !z-0" src={gun_man} alt="#" />
+              <img className="h-full w-full  absolute left-[13%] bottom-[-25%] md:bottom-[-40%] lg:bottom-[-26%] max-w-[635px] lg:w-full !z-0" src={gun_man} alt="#" />
             
           </div>
         </div>

@@ -28,7 +28,7 @@ const Gameplay = () => {
           </div>
         </div>
         {/* what is cyberfls */}
-        <div className="container max-w-[1140px] md:pt-[90px] pt-[40px] lg:pt-[150px] md:pb-[100px] pb-[40px] lg:pb-[170px] px-3 mx-auto flex justify-between items-center max-lg:flex-wrap">
+        <div className="container max-w-[1140px] md:pt-[90px] pt-[40px] lg:pt-[134px] md:pb-[100px] pb-[40px] lg:pb-[155px] px-3 mx-auto flex justify-between items-center max-lg:flex-wrap">
           <div className="lg:max-w-[562px]">
             <h3 className="sm:text-[54px] text-[27px] lg:text-[64px] font-normal ff_audiowide text-black  leading-tight">
             What is {" "}
