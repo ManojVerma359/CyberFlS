@@ -21,28 +21,28 @@ const Header = () => {
   };
   return (
     <>
-      <section className="hero_bgimg min-h-screen overflow-y-hidden   max-xl:max-h-[810px] relative flex flex-col">
+      <section className="hero_bgimg min-h-screen overflow-hidden   max-xl:max-h-[810px] relative flex flex-col">
         <img className="absolute bottom-0 right-0 z-0 max-w-[234px]" src={ellipse} alt="#" />
         <img
-          className="h-full max-w-[102px] absolute max-h-[452px] top-[25%] left-[1%]"
+          className="h-full max-w-[102px] absolute max-h-[200px] md:max-h-[452px] top-[25%] left-[1%]"
           src={cyberfls_img}
           alt="#"
         />
         <div className="mx-auto container max-w-[1140px]  px-3 pt-[6px]  ">
-          <nav className="flex items-center justify-between">
+          <nav className="flex items-center justify-between relative z-1">
             <img
-              className="max-w-[128px] cursor-pointer "
+              className="max-w-[100px] sm:max-w-[128px] cursor-pointer "
               src={page_logo}
               alt="#"
             />
 
             <ul
               className={`flex  gap-[16px]  ${
-                Show ? "left-0" : "left-[-100%] "
-              } h-full  w-full  flex-col xl:flex-row top-0 text-center justify-center max-xl:bg-[#11232b]    items-center duration-500 fixed xl:static`}
+                Show ? "left-0" : "left-[-100%]  "
+              } h-full  w-full  flex-col xl:flex-row top-0 text-center justify-center max-xl:bg-[#11232b] z_2   items-center duration-500 fixed xl:static`}
             >
               <li className="">
-                <a
+                <a onClick={moment}
                   className="ff_audiowide font-normal text-[16px] text-white relative hover_border link inline-block link  "
                   href=""
                 >
@@ -50,15 +50,15 @@ const Header = () => {
                 </a>
               </li>
               <li className="">
-                <a
+                <a onClick={moment}
                   className="ff_audiowide font-normal text-[16px] text-white  relative hover_border link inline-block link "
-                  href=""
+                  href="#CryptoStraps"
                 >
                   CryptoStraps
                 </a>
               </li>
               <li className="">
-                <a
+                <a onClick={moment}
                   className="ff_audiowide font-normal text-[16px] text-white  relative hover_border link inline-block link "
                   href=""
                 >
@@ -66,7 +66,7 @@ const Header = () => {
                 </a>
               </li>
               <li className="">
-                <a
+                <a onClick={moment}
                   className="ff_audiowide font-normal text-[16px] text-white  relative hover_border link inline-block link "
                   href=""
                 >
@@ -74,7 +74,7 @@ const Header = () => {
                 </a>
               </li>
               <li className="">
-                <a
+                <a onClick={moment}
                   className="ff_audiowide font-normal text-[16px] text-white relative hover_border link inline-block link "
                   href=""
                 >
@@ -104,17 +104,17 @@ const Header = () => {
             </div>
           </nav>
         </div>
-        <div className=" container max-w-[1140px] px-3 mx-auto lg:grow flex justify-center lg:justify-end items-center">
+        <div className=" container max-w-[1140px] px-3 mx-auto pt-[50px] lg:grow flex justify-center lg:justify-end items-center">
           <div className=" justify-end  flex items-center  ">
-            <div className="flex flex-col  items-end">
-              <img className="max-w-[472px]" src={page_logo} alt="#" />
-              <p className="text-[32.03px] text-white font-normal ff_audiowide">
+            <div className="flex flex-col items-center  lg:items-end">
+              <img className="md:max-w-[472px] max-w-[200px]" src={page_logo} alt="#" />
+              <p className="text-[25px] sm:text-[32.03px] text-white font-normal ff_audiowide max-sm:text-center">
                 Web3 Gaming Reimagined
               </p>
             </div>
-            <div className="absolute left-[13%] bottom-[-40%] max-w-[635px] w-full">
-              <img className="h-full w-full  " src={gun_man} alt="#" />
-            </div>
+           
+              <img className="h-full w-full  absolute left-[13%] bottom-[-25%] md:bottom-[-40%] max-w-[635px] lg:w-full !z-0" src={gun_man} alt="#" />
+            
           </div>
         </div>
       </section>
