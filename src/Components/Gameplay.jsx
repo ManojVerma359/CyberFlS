@@ -20,7 +20,7 @@ const Gameplay = () => {
             <img className="w-full " src={game_play} alt="#" />
             <a href="https://www.youtube.com/watch?v=YXaTfFRY6SQ">
               <img
-                className="absolute left-[48%] top-[48%] cursor-pointer max-w-[65px]"
+                className="absolute left-[40%] sm:left-[48%] top-[40%] sm:top-[48%] cursor-pointer max-w-[65px]"
                 src={play_icon}
                 alt=""
               />

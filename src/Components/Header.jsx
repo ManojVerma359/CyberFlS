@@ -24,7 +24,7 @@ const Header = () => {
       <section className="hero_bgimg min-h-screen overflow-hidden   max-xl:max-h-[810px] relative flex flex-col">
         <img className="absolute bottom-0 right-0 z-0 max-w-[234px]" src={ellipse} alt="#" />
         <img
-          className="h-full max-w-[102px] absolute max-h-[200px] md:max-h-[452px] top-[25%] left-[1%]"
+          className="h-full max-w-[102px] absolute max-h-[200px] md:max-h-[452px] top-[45%] sm:top-[25%] left-[1%]"
           src={cyberfls_img}
           alt="#"
         />
@@ -108,7 +108,7 @@ const Header = () => {
           <div className=" justify-end  flex items-center  ">
             <div className="flex flex-col items-center  lg:items-end">
               <img className="md:max-w-[472px] max-w-[200px]" src={page_logo} alt="#" />
-              <p className="text-[25px] sm:text-[32.03px] text-white font-normal ff_audiowide max-sm:text-center">
+              <p className="text-[22px] sm:text-[32.03px] text-white font-normal ff_audiowide max-sm:text-center">
                 Web3 Gaming Reimagined
               </p>
             </div>
