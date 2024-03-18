@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.ff_montserrat {
+  font-family: "Montserrat", sans-serif !important;
+}
+.ff_audiowide {
+  font-family: "Audiowide", sans-serif !important;
+}
+.hero_bgimg {
+  background-image: url(../src/assets/images/hero_bgimg.webp) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.link {
+  padding: 4px 23px !important;
+}
+.link {
+  border: 2px solid white !important;
+  transform: skewX(-30deg) !important;
+}
+.nav-link {
+  transform: skewX(30deg) !important;
+}
+.hover_border::before {
+  content: "";
+  display: block !important;
+  height: 18px;
+  position: absolute;
+  transition: all 0.3s linear;
+  width: 23px !important;
+  right: -5px;
+  top: -5px;
+  opacity: 0;
+}
+.hover_border:hover::before {
+  border-right: 3.5px solid #1eadb6;
+  border-top: 3.5px solid #1eadb6;
+  transform: skewX(-3deg) !important;
+  opacity: 1;
+}
+.hover_border::after {
+  content: "" !important;
+  display: block !important;
+  width: 20px !important;
+  height: 20px !important;
+  position: absolute !important;
+  left: -5.2px;
+  bottom: -5.2px;
+  transition: all 0.3s linear !important;
+  opacity: 0;
+}
+.hover_border:hover::after {
+  border-left: 3.5px solid #1eadb6 !important;
+  border-bottom: 3.5px solid #1eadb6 !important;
+  opacity: 1;
+}
+.gameplay_bgimg{
+  background-image: url(../src/assets/images/game_play_bgimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cryptoStraps_bgimg{
+  background-image: url(../src/assets/images/CryptoStraps_img.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: cover; */
+  background-position: 100% 100%;
+}
+hr {
+   border-top-width: 0 !important;
+}
