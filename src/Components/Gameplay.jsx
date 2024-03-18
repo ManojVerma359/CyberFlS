@@ -1,7 +1,7 @@
 import React from "react";
-import game_play from "../assets/images/game_play.png";
+import game_play from "../assets/images/game_play.webp";
 import play_icon from "../assets/images/play_icon.png";
-import secWhat_img from '../assets/images/secWhat_img.png'
+import secWhat_img from '../assets/images/secWhat_img.webp'
 
 const Gameplay = () => {
   return (

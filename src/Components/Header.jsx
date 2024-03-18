@@ -5,7 +5,7 @@ import { useState } from "react";
 import Hamburger from "hamburger-react";
 import gun_man from "../assets/images/gun_man.gif";
 import cyberfls_img from "../assets/images/CyberFPS_img.png";
-import ellipse from '../assets/images/ellipse.png'
+import ellipse from '../assets/images/ellipse.webp'
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
