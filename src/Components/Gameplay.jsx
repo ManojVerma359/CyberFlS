@@ -17,7 +17,7 @@ const Gameplay = () => {
           <hr className="!bg-[#1eadb6] h-[3px] max-w-[200px] md:max-w-[337px] flex justify-center items-center mx-auto mt-2" />
 
           <div className="relative pt-[31px]">
-            <img className="w-full " src={game_play} alt="#" />
+            <img className="w-full max-h-[502px]" src={game_play} alt="#" />
             <a href="https://www.youtube.com/watch?v=YXaTfFRY6SQ">
               <img
                 className="absolute left-[40%] sm:left-[48%] top-[40%] sm:top-[48%] cursor-pointer max-w-[65px]"
