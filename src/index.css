@@ -57,7 +57,7 @@
   opacity: 1;
 }
 .gameplay_bgimg{
-  background-image: url(../src/assets/images/game_play_bgimg.png);
+  background-image: url(../src/assets/images/game_play_bgimg.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
