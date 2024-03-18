@@ -104,7 +104,7 @@ const Header = () => {
             </div>
           </nav>
         </div>
-        <div className=" container max-w-[1140px] px-3 mx-auto pt-[50px] lg:grow flex justify-center lg:justify-end items-center">
+        <div className=" container max-w-[1140px] px-3 mx-auto max-lg:pt-[50px] lg:grow flex justify-center lg:justify-end items-center">
           <div className=" justify-end  flex items-center  ">
             <div className="flex flex-col items-center  lg:items-end">
               <img className="md:max-w-[472px] max-w-[200px]" src={page_logo} alt="#" />
