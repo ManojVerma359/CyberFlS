@@ -8,11 +8,6 @@
 .ff_audiowide {
   font-family: "Audiowide", sans-serif !important;
 }
-.hero_bgimg {
-  background-image: url(../src/assets/images/hero_bgimg.webp) !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 .link {
   padding: 4px 23px !important;
 }
@@ -56,21 +51,9 @@
   border-bottom: 3.5px solid #1eadb6 !important;
   opacity: 1;
 }
-.gameplay_bgimg{
-  background-image: url(../src/assets/images/game_play_bgimg.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
+.border_shadow {
+  box-shadow: 1px 1px 7px 1px #1ead86 !important;
 }
-.cryptoStraps_bgimg{
-  background-image: url(../src/assets/images/CryptoStraps_img.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* object-fit: cover; */
-  background-position: 100% 100%;
-}
-hr {
-   border-top-width: 0 !important;
-}
-.z_2{
-  z-index: 2 !important;
+html,body{
+scroll-behavior: smooth !important;
 }

@@ -1,13 +1,14 @@
 import React from "react";
-import cs_img from "../assets/images/cs_img.png";
-import robot_img from "../assets/images/robot_img.png";
+import cs_img from "../assets/images/Cs_Img.webp";
+import robot_img from "../assets/images/Robot_Img.webp";
 
 const CryptoStraps = () => {
   return (
     <>
-      <section id="CryptoStraps" className="cryptoStraps_bgimg relative ">
-        <img
-          className="absolute max-h-[477px] right-0 bottom-0 z-0 md:block hidden "
+      <section id="CryptoStraps" className="cryptoStraps_bgimg  bg-[url(../src/assets/images/Gif/CryptoStraps_img.gif)] bg-cover bg-no-repeat bg-center">
+  <div className="relative max-w-[1440px] mx-auto">
+  <img
+          className="absolute max-h-[365px] lg:max-h-[477px] right-0 bottom-0 z-0 md:block hidden "
           src={robot_img}
           alt="#"
         />
@@ -20,7 +21,7 @@ const CryptoStraps = () => {
             <h4 className="sm:text-[54px] text-[27px] lg:text-[64px] font-normal text-white ff_audiowide">
               CryptoStraps
             </h4>
-            <hr className="!bg-[#1eadb6] h-[3px] max-w-[120px]  sm:max-w-[179px] flex inline-block justify-center items-center mt-2" />
+            <hr className="!bg-[#1eadb6] h-[3px] max-w-[120px] border-t-0  sm:max-w-[179px] flex inline-block justify-center items-center mt-2" />
             <p className="text-white ff_montserrat font-normal leading-[150%] pt-[10px]">
               CryptoStraps are firearms pushing the boundaries of 3D animated
               art. CyberFPS will be powered by CryptoStraps $AMMO and is
@@ -30,6 +31,7 @@ const CryptoStraps = () => {
             </p>
           </div>
         </div>
+  </div>
       </section>
     </>
   );
