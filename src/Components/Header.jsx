@@ -25,7 +25,7 @@ const Header = () => {
       id: "#about",
     },
     { title: "CryptoStraps", id: "#CryptoStraps" },
-    { title: "Team", id: "#team" },
+    { title: "Team", id: "#team", },
     { title: "Faq", id: "#faq" },
     { title: "Light Paper", id: "#light" },
   ];
