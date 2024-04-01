@@ -65,7 +65,8 @@ const Header = () => {
                           className="ff_audiowide font-normal text-[16px] text-white  nav-link flex "
                           href={e.id}
                         >
-                          {e.title}
+                          {e.title
+                       }
                         </a>
                       </li>
                     </>
